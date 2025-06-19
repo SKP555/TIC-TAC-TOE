@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="game-container">
+        <div id="status">Player X's turn</div>
+        <div id="board"></div>
+        <div id="buttons">
+            <button id="play-again" class="game-btn">RESET</button>
+        </div>
+    </div>
+    <!-- Popup for winner -->
+    <div id="popup">
+        <div id="popup-content">
+            <div class="winner" id="popup-winner"></div>
+            <div id="popup-buttons">
+                <button id="popup-play-again" class="game-btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <!-- Confetti canvas -->
+    <canvas class="confetti" id="confetti-canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
