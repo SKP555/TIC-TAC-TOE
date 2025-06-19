@@ -16,7 +16,7 @@ A colorful, interactive Tic-Tac-Toe game for two players, built with HTML, CSS, 
 2. Player X starts. Click any empty cell to make your move.
 3. Players alternate turns. The first to get three in a row (horizontally, vertically, or diagonally) wins.
 4. If all cells are filled and no one wins, it's a draw.
-5. Click "RESET" or "Play Again" to start a new game.
+5. Click "RESET" to start a new game.
 
 ## File Structure
 
